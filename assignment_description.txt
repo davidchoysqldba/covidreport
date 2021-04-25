@@ -1,0 +1,18 @@
+Coding Challenge
+
+
+Please write a Python program that would:
+
+·         Read a config file to get the location of an excel file
+
+·         Read the excel file. The excel contains data with two columns: “date” and “iso”.  “date” is in “YYYY-MM-DD” format. “Iso” is the 3 digit ISO code of the country.
+
+·         Make an API request to https://covid-api.com/api/reports/ for each combination of date and iso in the excel
+
+·         Produce a table containing the following columns from parameters queried and the results returned: “date” “iso” “num_confirmed” “num_deaths” “num_recovered”
+
+·         Write the table to an excel on disk.
+
+·         The script should be production- ready (i.e. proper error handling, logging, read_me.txt and etc.)
+
+·         Please include script for unit testing.
