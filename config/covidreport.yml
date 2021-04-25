@@ -1,0 +1,6 @@
+covidreport:
+    excel_driver_path: '/home/developer/code/python/jyputer/config/covidreport.xlsx'
+    iso_country_path: '/home/developer/code/python/jyputer/config/iso_country.xlsx'
+    api_url: 'https://covid-api.com/api/reports'
+    excel_ouput_path: '/home/developer/code/python/jyputer/covidreport_output.xlsx'
+    summary_columns: ['confirmed', 'deaths', 'recovered']
